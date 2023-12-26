@@ -1,0 +1,50 @@
+[
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "valac -C --debug --debug --pkg gtk4 --color=always --directory src/dpbo-final-project.p --basedir ../src --gresources=../src/dpbo_final_project.gresource.xml --target-glib=2.50 ../src/main.vala ../src/login.vala ../src/application.vala ../src/register.vala ../src/forum.vala ../src/create.vala",
+    "file": "../src/main.vala",
+    "output": "src/dpbo-final-project.p/main.c"
+  },
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "cc -Isrc/dpbo-final-project.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -g -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/dpbo-final-project.p/meson-generated_.._dpbo_final_project-resources.c.o -MF src/dpbo-final-project.p/meson-generated_.._dpbo_final_project-resources.c.o.d -o src/dpbo-final-project.p/meson-generated_.._dpbo_final_project-resources.c.o -c src/dpbo_final_project-resources.c",
+    "file": "src/dpbo_final_project-resources.c",
+    "output": "src/dpbo-final-project.p/meson-generated_.._dpbo_final_project-resources.c.o"
+  },
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "cc -Isrc/dpbo-final-project.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/dpbo-final-project.p/meson-generated_main.c.o -MF src/dpbo-final-project.p/meson-generated_main.c.o.d -o src/dpbo-final-project.p/meson-generated_main.c.o -c src/dpbo-final-project.p/main.c",
+    "file": "src/dpbo-final-project.p/main.c",
+    "output": "src/dpbo-final-project.p/meson-generated_main.c.o"
+  },
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "cc -Isrc/dpbo-final-project.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/dpbo-final-project.p/meson-generated_login.c.o -MF src/dpbo-final-project.p/meson-generated_login.c.o.d -o src/dpbo-final-project.p/meson-generated_login.c.o -c src/dpbo-final-project.p/login.c",
+    "file": "src/dpbo-final-project.p/login.c",
+    "output": "src/dpbo-final-project.p/meson-generated_login.c.o"
+  },
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "cc -Isrc/dpbo-final-project.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/dpbo-final-project.p/meson-generated_application.c.o -MF src/dpbo-final-project.p/meson-generated_application.c.o.d -o src/dpbo-final-project.p/meson-generated_application.c.o -c src/dpbo-final-project.p/application.c",
+    "file": "src/dpbo-final-project.p/application.c",
+    "output": "src/dpbo-final-project.p/meson-generated_application.c.o"
+  },
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "cc -Isrc/dpbo-final-project.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/dpbo-final-project.p/meson-generated_register.c.o -MF src/dpbo-final-project.p/meson-generated_register.c.o.d -o src/dpbo-final-project.p/meson-generated_register.c.o -c src/dpbo-final-project.p/register.c",
+    "file": "src/dpbo-final-project.p/register.c",
+    "output": "src/dpbo-final-project.p/meson-generated_register.c.o"
+  },
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "cc -Isrc/dpbo-final-project.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/dpbo-final-project.p/meson-generated_forum.c.o -MF src/dpbo-final-project.p/meson-generated_forum.c.o.d -o src/dpbo-final-project.p/meson-generated_forum.c.o -c src/dpbo-final-project.p/forum.c",
+    "file": "src/dpbo-final-project.p/forum.c",
+    "output": "src/dpbo-final-project.p/meson-generated_forum.c.o"
+  },
+  {
+    "directory": "/home/memories/Projects/dpbo-final-project/build",
+    "command": "cc -Isrc/dpbo-final-project.p -Isrc -I../src -I/usr/include/gtk-4.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -g -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/dpbo-final-project.p/meson-generated_create.c.o -MF src/dpbo-final-project.p/meson-generated_create.c.o.d -o src/dpbo-final-project.p/meson-generated_create.c.o -c src/dpbo-final-project.p/create.c",
+    "file": "src/dpbo-final-project.p/create.c",
+    "output": "src/dpbo-final-project.p/meson-generated_create.c.o"
+  }
+]

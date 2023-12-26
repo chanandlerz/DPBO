@@ -1,0 +1,2 @@
+/home/memories/Projects/dpbo-final-project/build/meson-private/cmake_desktop-file-utils/CMakeFiles/edit_cache.dir
+/home/memories/Projects/dpbo-final-project/build/meson-private/cmake_desktop-file-utils/CMakeFiles/rebuild_cache.dir
